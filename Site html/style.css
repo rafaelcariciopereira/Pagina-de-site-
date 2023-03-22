@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color:#c324e2;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.imagem-cabecalho{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display:flex;
+    gap:32px;
+
+}
+
+.cabecalho-menu-itens{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #000000 ;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.conteudo-escrito{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 35px;
+}
+
+.conteudo-escrito2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color:aliceblue ;
+}
+
+.conteudo-escrito-botao{
+    background-color: #000000;
+    Width:219px;
+    Height:35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color:aliceblue ;
+}
